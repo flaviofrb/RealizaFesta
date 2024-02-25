@@ -228,6 +228,24 @@ footer a:hover {
     color: var(--pink) !important;
 }
 
+.credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 85, 85);
+    height: 50px;
+}
+
+.credit a {
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+.credit a:hover {
+    text-decoration: underline;
+    color: var(--pink) !important;
+}
+
 /* media queries */
 @media(min-width: 992px) {
     .nav-item {
