@@ -240,11 +240,11 @@ footer a:hover {
 .credit a {
     color: rgb(85, 85, 85);
     text-decoration: none;
+    color: var(--pink) !important;
 }
 
 .credit a:hover {
     text-decoration: underline;
-    color: var(--pink) !important;
 }
 
 /* media queries */
